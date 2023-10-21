@@ -1,0 +1,43 @@
+/* Table.css */
+
+.table {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(190, 239, 239);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr {
+    transition: transform 0.2s;
+    /* Add a transition for smooth scaling */
+}
+
+/* Scale the data rows slightly on hover */
+tr:hover {
+    transform: scale(1.02);
+    background-color: rgb(143, 238, 238);
+}
